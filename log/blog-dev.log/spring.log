@@ -2479,3 +2479,152 @@ org.attoparser.ParseException: (Line = 69, Column = 65) Malformed markup: Attrib
 2021-01-26 03:39:14.049  INFO 1664 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2021-01-26 03:39:14.050  INFO 1664 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
 2021-01-26 03:39:14.052  INFO 1664 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-01-26 18:40:37.568  INFO 1009 --- [restartedMain] com.harry.BlogApplication                : Starting BlogApplication using Java 11.0.2 on HarrydeMacBook-Pro.local with PID 1009 (/Users/herryzhao/Desktop/codes/blog/target/classes started by herryzhao in /Users/herryzhao/Desktop/codes/blog)
+2021-01-26 18:40:37.572 DEBUG 1009 --- [restartedMain] com.harry.BlogApplication                : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-26 18:40:37.577  INFO 1009 --- [restartedMain] com.harry.BlogApplication                : The following profiles are active: dev
+2021-01-26 18:40:37.650  INFO 1009 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-26 18:40:37.651  INFO 1009 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-26 18:40:39.096  INFO 1009 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-26 18:40:39.300  INFO 1009 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 183 ms. Found 5 JPA repository interfaces.
+2021-01-26 18:40:40.627  INFO 1009 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-26 18:40:40.639  INFO 1009 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-26 18:40:40.640  INFO 1009 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-26 18:40:40.726  INFO 1009 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-26 18:40:40.726  INFO 1009 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3074 ms
+2021-01-26 18:40:40.950  INFO 1009 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-26 18:40:41.025  INFO 1009 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-26 18:40:41.149  INFO 1009 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-26 18:40:41.261  INFO 1009 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-26 18:40:41.264  WARN 1009 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-01-26 18:40:41.720  INFO 1009 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-26 18:40:41.739  INFO 1009 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-26 18:40:42.586  INFO 1009 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-26 18:40:42.594  INFO 1009 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-26 18:40:42.624  INFO 1009 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-26 18:40:43.671  WARN 1009 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-26 18:40:43.874  INFO 1009 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-26 18:40:43.998  INFO 1009 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-26 18:40:44.304  INFO 1009 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-26 18:40:44.314  INFO 1009 --- [restartedMain] com.harry.BlogApplication                : Started BlogApplication in 8.094 seconds (JVM running for 9.4)
+2021-01-26 18:40:47.682  INFO 1009 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-26 18:40:47.683  INFO 1009 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-26 18:40:47.684  INFO 1009 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-26 18:40:47.713  INFO 1009 --- [http-nio-8080-exec-1] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-01-26 18:40:47.804  WARN 1009 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-01-26 18:40:47.815  WARN 1009 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-01-26 18:40:47.823  INFO 1009 --- [http-nio-8080-exec-1] com.harry.aspect.LogAspect               : Result : index
+2021-01-26 18:40:48.341  INFO 1009 --- [http-nio-8080-exec-1] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-01-26 18:40:48.362  INFO 1009 --- [http-nio-8080-exec-1] com.harry.aspect.LogAspect               : Result : index
+2021-01-26 18:40:48.676  INFO 1009 --- [http-nio-8080-exec-6] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.newblogs', args=[{}]}
+2021-01-26 18:40:48.683  INFO 1009 --- [http-nio-8080-exec-6] com.harry.aspect.LogAspect               : Result : _fragments :: newblogList
+2021-01-26 18:44:46.895  INFO 1009 --- [http-nio-8080-exec-10] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2021-01-26 18:44:46.910  INFO 1009 --- [http-nio-8080-exec-10] com.harry.aspect.LogAspect               : Result : types
+2021-01-26 18:44:47.193  INFO 1009 --- [http-nio-8080-exec-9] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.newblogs', args=[{}]}
+2021-01-26 18:44:47.197  INFO 1009 --- [http-nio-8080-exec-9] com.harry.aspect.LogAspect               : Result : _fragments :: newblogList
+2021-01-26 18:44:48.130  INFO 1009 --- [http-nio-8080-exec-6] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-01-26 18:44:48.140  INFO 1009 --- [http-nio-8080-exec-6] com.harry.aspect.LogAspect               : Result : index
+2021-01-26 18:44:48.215  INFO 1009 --- [http-nio-8080-exec-6] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-01-26 18:44:48.230  INFO 1009 --- [http-nio-8080-exec-6] com.harry.aspect.LogAspect               : Result : index
+2021-01-26 18:44:48.419  INFO 1009 --- [http-nio-8080-exec-8] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.newblogs', args=[{}]}
+2021-01-26 18:44:48.423  INFO 1009 --- [http-nio-8080-exec-8] com.harry.aspect.LogAspect               : Result : _fragments :: newblogList
+2021-01-26 18:44:49.889  INFO 1009 --- [http-nio-8080-exec-7] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/blog/44', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.blog', args=[44, {}]}
+2021-01-26 18:44:49.949  INFO 1009 --- [http-nio-8080-exec-7] com.harry.aspect.LogAspect               : Result : blog
+2021-01-26 18:44:50.317  INFO 1009 --- [http-nio-8080-exec-6] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.newblogs', args=[{}]}
+2021-01-26 18:44:50.321  INFO 1009 --- [http-nio-8080-exec-6] com.harry.aspect.LogAspect               : Result : _fragments :: newblogList
+2021-01-26 18:44:50.441  INFO 1009 --- [http-nio-8080-exec-10] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/comments/44', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.CommentController.comments', args=[44, {}]}
+2021-01-26 18:44:50.466  INFO 1009 --- [http-nio-8080-exec-10] com.harry.aspect.LogAspect               : Result : blog :: commentList
+2021-01-26 18:46:54.892  INFO 1009 --- [http-nio-8080-exec-5] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-01-26 18:46:54.900  INFO 1009 --- [http-nio-8080-exec-5] com.harry.aspect.LogAspect               : Result : index
+2021-01-26 18:46:55.189  INFO 1009 --- [http-nio-8080-exec-1] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.newblogs', args=[{}]}
+2021-01-26 18:46:55.192  INFO 1009 --- [http-nio-8080-exec-1] com.harry.aspect.LogAspect               : Result : _fragments :: newblogList
+2021-01-26 18:49:20.384  INFO 1009 --- [http-nio-8080-exec-2] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/blog/44', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.blog', args=[44, {}]}
+2021-01-26 18:49:20.391  INFO 1009 --- [http-nio-8080-exec-2] com.harry.aspect.LogAspect               : Result : blog
+2021-01-26 18:49:20.658  INFO 1009 --- [http-nio-8080-exec-3] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.newblogs', args=[{}]}
+2021-01-26 18:49:20.662  INFO 1009 --- [http-nio-8080-exec-3] com.harry.aspect.LogAspect               : Result : _fragments :: newblogList
+2021-01-26 18:49:20.730  INFO 1009 --- [http-nio-8080-exec-7] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/comments/44', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.CommentController.comments', args=[44, {}]}
+2021-01-26 18:49:20.739  INFO 1009 --- [http-nio-8080-exec-7] com.harry.aspect.LogAspect               : Result : blog :: commentList
+2021-01-26 18:49:25.743  INFO 1009 --- [http-nio-8080-exec-2] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2021-01-26 18:49:25.748  INFO 1009 --- [http-nio-8080-exec-2] com.harry.aspect.LogAspect               : Result : types
+2021-01-26 18:49:26.040  INFO 1009 --- [http-nio-8080-exec-8] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.newblogs', args=[{}]}
+2021-01-26 18:49:26.043  INFO 1009 --- [http-nio-8080-exec-8] com.harry.aspect.LogAspect               : Result : _fragments :: newblogList
+2021-01-26 18:49:35.697  INFO 1009 --- [http-nio-8080-exec-1] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2021-01-26 18:49:35.713  INFO 1009 --- [http-nio-8080-exec-1] com.harry.aspect.LogAspect               : Result : tags
+2021-01-26 18:49:35.985  INFO 1009 --- [http-nio-8080-exec-5] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.newblogs', args=[{}]}
+2021-01-26 18:49:35.987  INFO 1009 --- [http-nio-8080-exec-5] com.harry.aspect.LogAspect               : Result : _fragments :: newblogList
+2021-01-26 18:49:39.211  INFO 1009 --- [http-nio-8080-exec-7] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.ArchiveShowController.archives', args=[{}]}
+2021-01-26 18:49:39.223  INFO 1009 --- [http-nio-8080-exec-7] com.harry.aspect.LogAspect               : Result : archives
+2021-01-26 18:49:39.460  INFO 1009 --- [http-nio-8080-exec-10] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.newblogs', args=[{}]}
+2021-01-26 18:49:39.464  INFO 1009 --- [http-nio-8080-exec-10] com.harry.aspect.LogAspect               : Result : _fragments :: newblogList
+2021-01-26 18:49:42.159  INFO 1009 --- [http-nio-8080-exec-1] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-01-26 18:49:42.166  INFO 1009 --- [http-nio-8080-exec-1] com.harry.aspect.LogAspect               : Result : index
+2021-01-26 18:49:42.448  INFO 1009 --- [http-nio-8080-exec-3] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.newblogs', args=[{}]}
+2021-01-26 18:49:42.452  INFO 1009 --- [http-nio-8080-exec-3] com.harry.aspect.LogAspect               : Result : _fragments :: newblogList
+2021-01-26 19:40:55.710  INFO 1009 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-26 19:40:55.712  INFO 1009 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-26 19:40:55.717  INFO 1009 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-01-26 19:40:55.724  INFO 1009 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-01-26 19:40:55.831  INFO 1009 --- [restartedMain] com.harry.BlogApplication                : Starting BlogApplication using Java 11.0.2 on HarrydeMacBook-Pro.local with PID 1009 (/Users/herryzhao/Desktop/codes/blog/target/classes started by herryzhao in /Users/herryzhao/Desktop/codes/blog)
+2021-01-26 19:40:55.831 DEBUG 1009 --- [restartedMain] com.harry.BlogApplication                : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-26 19:40:55.832  INFO 1009 --- [restartedMain] com.harry.BlogApplication                : The following profiles are active: dev
+2021-01-26 19:40:56.008  INFO 1009 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-26 19:40:56.009  INFO 1009 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2021-01-26 19:40:56.166  INFO 1009 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-26 19:40:56.167  INFO 1009 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-26 19:40:56.168  INFO 1009 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-26 19:40:56.182  INFO 1009 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-26 19:40:56.182  INFO 1009 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 348 ms
+2021-01-26 19:40:56.228  INFO 1009 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-26 19:40:56.233  INFO 1009 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-01-26 19:40:56.234  WARN 1009 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-01-26 19:40:56.250  INFO 1009 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-01-26 19:40:56.250  INFO 1009 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-26 19:40:56.272  INFO 1009 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-26 19:40:56.272  INFO 1009 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-26 19:40:56.279  INFO 1009 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-26 19:40:56.302  WARN 1009 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-26 19:40:56.350  INFO 1009 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-26 19:40:56.374  INFO 1009 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-26 19:40:56.454  INFO 1009 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-26 19:40:56.461  INFO 1009 --- [restartedMain] com.harry.BlogApplication                : Started BlogApplication in 0.674 seconds (JVM running for 3621.078)
+2021-01-26 19:40:56.464  INFO 1009 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-01-26 19:40:57.958  INFO 1009 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-26 19:40:57.959  INFO 1009 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-26 19:40:57.960  INFO 1009 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-01-26 19:40:57.978  INFO 1009 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-01-26 19:40:58.095  INFO 1009 --- [restartedMain] com.harry.BlogApplication                : Starting BlogApplication using Java 11.0.2 on HarrydeMacBook-Pro.local with PID 1009 (/Users/herryzhao/Desktop/codes/blog/target/classes started by herryzhao in /Users/herryzhao/Desktop/codes/blog)
+2021-01-26 19:40:58.096 DEBUG 1009 --- [restartedMain] com.harry.BlogApplication                : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-26 19:40:58.096  INFO 1009 --- [restartedMain] com.harry.BlogApplication                : The following profiles are active: dev
+2021-01-26 19:40:58.312  INFO 1009 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-26 19:40:58.339  INFO 1009 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 5 JPA repository interfaces.
+2021-01-26 19:40:58.567  INFO 1009 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-26 19:40:58.568  INFO 1009 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-26 19:40:58.568  INFO 1009 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-26 19:40:58.586  INFO 1009 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-26 19:40:58.586  INFO 1009 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 485 ms
+2021-01-26 19:40:58.687  INFO 1009 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-26 19:40:58.692  INFO 1009 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-01-26 19:40:58.692  WARN 1009 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-01-26 19:40:58.710  INFO 1009 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-01-26 19:40:58.711  INFO 1009 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-26 19:40:58.922  INFO 1009 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-26 19:40:58.922  INFO 1009 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-26 19:40:58.940  INFO 1009 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-26 19:40:59.542  WARN 1009 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-26 19:40:59.691  INFO 1009 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-26 19:40:59.749  INFO 1009 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-26 19:40:59.959  INFO 1009 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-26 19:40:59.966  INFO 1009 --- [restartedMain] com.harry.BlogApplication                : Started BlogApplication in 1.918 seconds (JVM running for 3624.583)
+2021-01-26 19:40:59.967  INFO 1009 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-01-26 19:42:52.885  INFO 1009 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-26 19:42:52.885  INFO 1009 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-26 19:42:52.886  INFO 1009 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-01-26 19:43:03.382  INFO 1009 --- [http-nio-8080-exec-9] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-01-26 19:43:03.397  WARN 1009 --- [http-nio-8080-exec-9] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-01-26 19:43:03.401  WARN 1009 --- [http-nio-8080-exec-9] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-01-26 19:43:03.406  INFO 1009 --- [http-nio-8080-exec-9] com.harry.aspect.LogAspect               : Result : index
+2021-01-26 19:43:03.716  INFO 1009 --- [http-nio-8080-exec-1] com.harry.aspect.LogAspect               : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.harry.web.IndexController.newblogs', args=[{}]}
+2021-01-26 19:43:03.718  INFO 1009 --- [http-nio-8080-exec-1] com.harry.aspect.LogAspect               : Result : _fragments :: newblogList
+2021-01-26 19:45:49.191  INFO 1009 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-26 19:45:49.192  INFO 1009 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-26 19:45:49.192  INFO 1009 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2021-01-26 19:45:49.197  INFO 1009 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
